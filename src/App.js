@@ -1,4 +1,6 @@
 import React from "react"
+import ArrayObject from "./classcomponent/Array/ArrayObject"
+import Array_Test from "./classcomponent/Array/Array_Test"
 import ChangeEvent from "./classcomponent/ChangeEvent"
 import Greet from "./classcomponent/Greet"
 import Propsdata from "./classcomponent/Propsdata"
@@ -10,7 +12,9 @@ class App extends React.Component {
         {/* <Greet /> */}
         {/* <Propsdata email="suprava@gmail.com" name="suprava" age={27}/> */}
         {/* <Statevariable/> */}
-        <ChangeEvent/>
+        {/* <ChangeEvent/> */}
+        {/* <Array_Test/> */}
+        <ArrayObject/>
       </div>
     )
   }
