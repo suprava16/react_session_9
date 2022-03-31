@@ -4,6 +4,7 @@ import Array_Test from "./classcomponent/Array/Array_Test"
 import ChangeEvent from "./classcomponent/ChangeEvent"
 import Conditions from "./classcomponent/ConditionalRenderning/Conditions"
 import Greet from "./classcomponent/Greet"
+import Main from "./classcomponent/Lifecycle/Main"
 import Propsdata from "./classcomponent/Propsdata"
 import Statevariable from "./classcomponent/Statevariable"
 class App extends React.Component {
@@ -16,7 +17,8 @@ class App extends React.Component {
         {/* <ChangeEvent/> */}
         {/* <Array_Test/> */}
         {/* <ArrayObject/> */}
-        <Conditions/>
+        {/* <Conditions/> */}
+        <Main/>
       </div>
     )
   }
