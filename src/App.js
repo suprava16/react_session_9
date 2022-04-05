@@ -1,4 +1,5 @@
 import React from "react"
+import Fetch from "./classcomponent/Api/Fetch"
 import ArrayObject from "./classcomponent/Array/ArrayObject"
 import Array_Test from "./classcomponent/Array/Array_Test"
 import ChangeEvent from "./classcomponent/ChangeEvent"
@@ -18,7 +19,8 @@ class App extends React.Component {
         {/* <Array_Test/> */}
         {/* <ArrayObject/> */}
         {/* <Conditions/> */}
-        <Main/>
+        {/* <Main/> */}
+        <Fetch/>
       </div>
     )
   }
