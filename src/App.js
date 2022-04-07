@@ -1,5 +1,7 @@
 import React from "react"
+import AxioxMethod from "./classcomponent/Api/AxioxMethod"
 import Fetch from "./classcomponent/Api/Fetch"
+import PostMethod from "./classcomponent/Api/PostMethod"
 import ArrayObject from "./classcomponent/Array/ArrayObject"
 import Array_Test from "./classcomponent/Array/Array_Test"
 import ChangeEvent from "./classcomponent/ChangeEvent"
@@ -20,7 +22,9 @@ class App extends React.Component {
         {/* <ArrayObject/> */}
         {/* <Conditions/> */}
         {/* <Main/> */}
-        <Fetch/>
+        {/* <Fetch/> */}
+        {/* <PostMethod/> */}
+        <AxioxMethod/>
       </div>
     )
   }

@@ -1,3 +1,4 @@
+import axios from "axios";
 import React from "react"
 
 export default class Fetch extends React.Component{
@@ -17,6 +18,10 @@ export default class Fetch extends React.Component{
       })
     })
 
+    // axios.get("https://reqres.in/api/users?page=2")
+    // .then((result)=>{
+    //   console.log(result)
+    // })
   }
   render(){
     return(
