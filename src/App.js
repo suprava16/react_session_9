@@ -6,10 +6,12 @@ import ArrayObject from "./classcomponent/Array/ArrayObject"
 import Array_Test from "./classcomponent/Array/Array_Test"
 import ChangeEvent from "./classcomponent/ChangeEvent"
 import Conditions from "./classcomponent/ConditionalRenderning/Conditions"
-import Greet from "./classcomponent/Greet"
+//import Greet from "./classcomponent/Greet"
 import Main from "./classcomponent/Lifecycle/Main"
 import Propsdata from "./classcomponent/Propsdata"
 import Statevariable from "./classcomponent/Statevariable"
+import Greet from "./FunctionalComponents/Greet"
+import StateVariableInFunction from "./FunctionalComponents/StateVariableInFunction"
 class App extends React.Component {
   render() {
     return (
@@ -24,7 +26,9 @@ class App extends React.Component {
         {/* <Main/> */}
         {/* <Fetch/> */}
         {/* <PostMethod/> */}
-        <AxioxMethod/>
+        {/* <AxioxMethod/> */}
+        {/* <Greet/> */}
+        <StateVariableInFunction/>
       </div>
     )
   }
