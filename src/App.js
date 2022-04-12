@@ -11,7 +11,9 @@ import Main from "./classcomponent/Lifecycle/Main"
 import Propsdata from "./classcomponent/Propsdata"
 import Statevariable from "./classcomponent/Statevariable"
 import Greet from "./FunctionalComponents/Greet"
+import { OnchangeFunctionCom } from "./FunctionalComponents/OnchangeFunctionCom"
 import StateVariableInFunction from "./FunctionalComponents/StateVariableInFunction"
+import ReactRouter from "./Routing/ReactRouter"
 class App extends React.Component {
   render() {
     return (
@@ -28,7 +30,9 @@ class App extends React.Component {
         {/* <PostMethod/> */}
         {/* <AxioxMethod/> */}
         {/* <Greet/> */}
-        <StateVariableInFunction/>
+        {/* <StateVariableInFunction/> */}
+        {/* <OnchangeFunctionCom/> */}
+        <ReactRouter/>
       </div>
     )
   }

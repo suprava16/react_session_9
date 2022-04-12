@@ -1,45 +1,52 @@
 import React from "react"
 
-export default class ArrayObject extends React.Component{
-  constructor(){
+export default class ArrayObject extends React.Component {
+  constructor() {
     super()
-    this.state={
-      user:[
+    this.state = {
+      user: [
         {
-          name:"suprava",
-          email:"suprava@gmail.com"
+          name: "suprava",
+          email: "suprava@gmail.com"
         },
         {
-          name:"Rinky",
-          email:"rinky@gmail.com"
+          name: "Rinky",
+          email: "rinky@gmail.com"
         },
         {
-          name:"Gita",
-          email:"gita@gmail.com"
+          name: "Gita",
+          email: "gita@gmail.com"
         },
         {
-          name:"tony",
-          email:"tony@gmail.com"
+          name: "tony",
+          email: "tony@gmail.com"
         },
         {
-          name:"Laxman",
-          email:"laxman@gmail.com"
+          name: "Laxman",
+          email: "laxman@gmail.com"
         },
 
       ]
     }
   }
-  render(){
-    return(
+  render() {
+    return (
       <div>
-          {this.state.user.map((item,i)=>{
-            return(
-              <div key={i}>
-                name:{item.name} & email:{item.email}
-              </div>
-            )
-          })}
+        {this.state.user.map((item, i) => {
+          return (
+            <div key={i}>
+              name:{item.name} & email:{item.email}
+            </div>
+          )
+        })}
       </div>
     )
   }
-} 
+}
+
+
+// const [user, setUser] = useState([
+//   { email: "s@gmail.com", password: "vchgc" },
+//   { email: "", password: "" }
+// ]
+// )
