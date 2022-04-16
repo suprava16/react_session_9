@@ -13,6 +13,7 @@ import Statevariable from "./classcomponent/Statevariable"
 import Greet from "./FunctionalComponents/Greet"
 import { OnchangeFunctionCom } from "./FunctionalComponents/OnchangeFunctionCom"
 import StateVariableInFunction from "./FunctionalComponents/StateVariableInFunction"
+import Design from "./MaterialUi/Design"
 import ReactRouter from "./Routing/ReactRouter"
 class App extends React.Component {
   render() {
@@ -32,7 +33,8 @@ class App extends React.Component {
         {/* <Greet/> */}
         {/* <StateVariableInFunction/> */}
         {/* <OnchangeFunctionCom/> */}
-        <ReactRouter/>
+        {/* <ReactRouter/> */}
+        <Design/>
       </div>
     )
   }
